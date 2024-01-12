@@ -7,7 +7,7 @@ tags:
 categories : [Electronics, Computer]
 ---
 
-Making NAS or Network Attached Storage is not easy, especillay if your PC is too yes very ancient, here is my journey documented on the quest of making NAS
+Making NAS or Network Attached Storage is not easy, especially if your PC is ancient, here is my journey documented on the quest of making NAS with my old pc
 
 ---
 
