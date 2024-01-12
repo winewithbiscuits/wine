@@ -8,3 +8,5 @@ tags:
 
 Hello everyone
 I hope this newly upgraded blog post is visible, not yet deployed though
+
+Sasaki and peeps saikou!
