@@ -1,7 +1,7 @@
 ---
 title: My NAS Making Documentation
-index_img: /img/114359543_p0.jpg
-banner_img: /img/114506862_p0.png
+index_img: /img/nas.jpg
+banner_img: /img/nas.jpg
 date: 2023-12-24 18:38:31
 tags:
 categories : [Electronics, Computer]
@@ -47,3 +47,5 @@ RAID (Redundant Array of Independent Disks) is a storage technology that combine
         Offers a balance between performance and fault tolerance by striping data across multiple RAID 5 or RAID 6 arrays.
 
 The choice of RAID level depends on factors such as the desired level of data protection, performance requirements, and the number of available drives. RAID is commonly used in servers, storage arrays, and network-attached storage (NAS) devices to enhance data reliability and performance.
+
+More to follow

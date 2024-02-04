@@ -1,6 +1,8 @@
 ---
 title: about
 layout: about
+index_img: /img/ab.jpg
+banner_img: /img/ab.jpg
 date: 2023-11-20 08:19:18
 ---
 Hello
