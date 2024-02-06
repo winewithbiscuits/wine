@@ -806,21 +806,16 @@ valine:
 # Derived from Valine, with self-hosted service and new features
 # See: https://waline.js.org/
 waline:
-  serverURL: https://site-comments-6a4qqx1gj-winewithbiscuits.vercel.app/
+  serverURL: ''
   path: window.location.pathname
-  meta: nick, mail, link
-  requiredMeta: nick
-  lang: en-US, jp-JP, zh-CN
-  emoji: 
-      - https://unpkg.com/@waline/emojis@1.2.0/weibo
-      - https://unpkg.com/@waline/emojis@1.2.0/alus
-      - https://unpkg.com/@waline/emojis@1.2.0/bilibili
-      - https://unpkg.com/@waline/emojis@1.2.0/qq
-      - https://unpkg.com/@waline/emojis@1.2.0/tieba
-      - https://unpkg.com/@waline/emojis@1.2.0/tw-emoji
+  meta: ['nick', 'mail', 'link']
+  requiredMeta: ['nick']
+  lang: 'zh-CN'
+  emoji: ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
   dark: 'html[data-user-color-scheme="dark"]'
   wordLimit: 0
   pageSize: 10
+
 
 # 畅言 Changyan
 # 基于第三方的服务
