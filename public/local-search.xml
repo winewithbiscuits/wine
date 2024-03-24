@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>All about SAX you need to know</title>
+    <link href="/2024/02/04/SAX/"/>
+    <url>/2024/02/04/SAX/</url>
+    
+    <content type="html"><![CDATA[<p>Small angle X-ray diffraction (SAX) is a powerful technique employed in various scientific fields, particularly in materials science and structural biology, to investigate the nanoscale and mesoscale structures of materials. By utilizing X-rays with wavelengths on the order of atomic spacing, SAXD can provide valuable insights into the arrangement, orientation, and periodicity of atoms and molecules within a sample. This method is particularly useful for studying the structural characteristics of polymers, liquid crystals, colloids, and biological macromolecules such as proteins and nucleic acids. SAXD experiments typically involve analyzing the scattering patterns generated when X-rays interact with the sample, offering detailed information about its internal structure and enabling researchers to understand fundamental properties and behaviors crucial for a wide range of applications, including drug development, materials design, and nanotechnology.</p><p>Equipment and Materials:</p><p>X-ray source (usually a synchrotron or laboratory X-ray generator)<br>Sample holder (e.g., capillary, film, or plate)<br>Detector (e.g., CCD camera or image plate)<br>Goniometer or sample stage for precise angular positioning<br>Data analysis software (e.g., Fit2D, Igor Pro, or PyFAI)<br>Safety equipment (e.g., radiation shielding, goggles)</p><p>Protocol:</p><p>Sample Preparation: Prepare your sample in the desired form (e.g., solution, film, or powder).</p><p>Experimental Setup:<br>  Mount the sample on the sample holder, ensuring it is flat and homogeneous.<br>  Align the X-ray source, sample holder, and detector to the desired geometry (usually perpendicular to the X-ray beam).</p><p>Data Collection:<br>    Adjust the X-ray wavelength and intensity according to the sample characteristics.<br>    Scan the sample over the desired angular range while collecting X-ray scattering data.<br>    Collect background and calibration measurements for accurate data analysis.</p><p>Data Analysis:<br>    Process the raw data using specialized software to obtain 1D or 2D scattering patterns.<br>    Analyze the scattering patterns to extract information about the sample’s nano&#x2F;mesoscale structure (e.g., periodicity, orientation).</p><p>Interpretation and Reporting:<br>    Interpret the results in the context of the sample’s composition and properties.<br>    Compare with theoretical models or known standards for validation.<br>    Report the findings in scientific publications or presentations.</p><p>References:</p><p>Glatter, O., &amp; Kratky, O. (1982). Small angle X-ray scattering. Academic Press.<br>Svergun, D. I. (1992). Determination of the regularization parameter in indirect-transform methods using perceptual criteria. Journal of Applied Crystallography, 25(4), 495-503.<br>Hammersley, A. P., Svensson, S. O., Hanfland, M., Fitch, A. N., &amp; Hausermann, D. (1996). Two-dimensional detector software: From real detector to idealised image or two-theta scan. High Pressure Research, 14(4-6), 235-248.</p><p>Tools and Software:</p><p>Fit2D: <a href="https://www.esrf.eu/computing/scientific/FIT2D/">https://www.esrf.eu/computing/scientific/FIT2D/</a><br>Igor Pro: <a href="https://www.wavemetrics.com/">https://www.wavemetrics.com/</a><br>PyFAI: <a href="https://github.com/silx-kit/pyFAI">https://github.com/silx-kit/pyFAI</a></p><p>These resources provide detailed information on SAXD theory, experimental techniques, and data analysis methods, aiding researchers in conducting and interpreting SAX experiments effectively.</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>My NAS Making Documentation</title>
+    <link href="/2023/12/24/page/"/>
+    <url>/2023/12/24/page/</url>
+    
+    <content type="html"><![CDATA[<p>Making NAS or Network Attached Storage is not easy, especially if your PC is ancient, here is my journey documented on the quest of making NAS with my old pc</p><hr><p>What is NAS?<br>Network Attached Storage (NAS) is a type of dedicated file storage device that provides local-area network (LAN) nodes with file-based shared storage through a standard Ethernet connection. NAS devices are often used to store and share data among multiple users, and they typically provide access to files using protocols such as NFS (Network File System) or SMB&#x2F;CIFS (Server Message Block&#x2F;Common Internet File System).</p><p>There are several software options available for setting up and managing Network Attached Storage (NAS) devices. These software solutions often provide features such as file sharing, data protection, remote access, and more.<br>RAID (Redundant Array of Independent Disks) is a storage technology that combines multiple physical hard drives into a single logical unit. The goal of RAID is to improve data reliability, performance, or both, depending on the specific RAID level used. RAID accomplishes this by distributing or mirroring data across the drives in the array. There are several RAID levels, each with its own characteristics:</p><pre><code class="hljs">RAID 0 (Striping):    Data is divided into blocks, and each block is written to a different drive in the array.    Offers increased performance by allowing multiple drives to work in parallel.    No redundancy; if one drive fails, all data in the array is lost.RAID 1 (Mirroring):    Data is duplicated across two or more drives.    Provides fault tolerance by maintaining an identical copy of the data on each drive.    Good for data redundancy and reliability but doesn&#39;t offer increased performance.RAID 5 (Striping with Parity):    Data is striped across multiple drives, and parity information is distributed.    Offers a balance between performance and data redundancy.    Can withstand the failure of a single drive without data loss.RAID 6 (Striping with Double Parity):    Similar to RAID 5, but with an additional parity block for increased fault tolerance.    Can withstand the failure of two drives without data loss.    Provides higher fault tolerance than RAID 5 but may have a higher write overhead.RAID 10 (Combination of RAID 1 and RAID 0):    Combines mirroring (RAID 1) and striping (RAID 0).    Provides both performance improvement and data redundancy.    Can withstand the failure of one or more drives, depending on the specific configuration.RAID 50 and RAID 60:    Combines RAID 5 or RAID 6 with RAID 0 for striping.    Offers a balance between performance and fault tolerance by striping data across multiple RAID 5 or RAID 6 arrays.</code></pre><p>The choice of RAID level depends on factors such as the desired level of data protection, performance requirements, and the number of available drives. RAID is commonly used in servers, storage arrays, and network-attached storage (NAS) devices to enhance data reliability and performance.</p><p>More to follow</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Electronics</category>
+      
+      <category>Computer</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>work</title>
+    <link href="/2023/12/04/work/"/>
+    <url>/2023/12/04/work/</url>
+    
+    <content type="html"><![CDATA[<p>Hello everyone<br>I hope this newly upgraded blog post is visible</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
