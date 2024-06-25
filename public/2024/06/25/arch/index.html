@@ -16,23 +16,23 @@
   <meta name="author" content="winewithbiscuits">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Making NAS or Network Attached Storage is not easy, especially if your PC is ancient, here is my journey documented on the quest of making NAS with my old pc  What is NAS?Network Attached Storage (NAS">
+    <meta name="description" content="I have recently shifted to arch linux as my main os of choice. The main reason being the windows 11 being unoptimied for my day to day work flow.I have been using ubuntu as my work os for quite someti">
 <meta property="og:type" content="article">
-<meta property="og:title" content="My NAS Making Documentation">
-<meta property="og:url" content="https://winewithbiscuits.github.io/2023/12/24/page/index.html">
+<meta property="og:title" content="I am arch btw! (笑)">
+<meta property="og:url" content="https://winewithbiscuits.github.io/2024/06/25/arch/index.html">
 <meta property="og:site_name" content="Nyaruhodo">
-<meta property="og:description" content="Making NAS or Network Attached Storage is not easy, especially if your PC is ancient, here is my journey documented on the quest of making NAS with my old pc  What is NAS?Network Attached Storage (NAS">
+<meta property="og:description" content="I have recently shifted to arch linux as my main os of choice. The main reason being the windows 11 being unoptimied for my day to day work flow.I have been using ubuntu as my work os for quite someti">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://winewithbiscuits.github.io/img/nas.jpg">
-<meta property="article:published_time" content="2023-12-24T13:08:31.000Z">
-<meta property="article:modified_time" content="2024-06-21T14:04:44.608Z">
+<meta property="og:image" content="https://winewithbiscuits.github.io/img/penguin.jpg">
+<meta property="article:published_time" content="2024-06-25T08:24:16.000Z">
+<meta property="article:modified_time" content="2024-06-25T08:41:01.470Z">
 <meta property="article:author" content="winewithbiscuits">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://winewithbiscuits.github.io/img/nas.jpg">
+<meta name="twitter:image" content="https://winewithbiscuits.github.io/img/penguin.jpg">
   
   
   
-  <title>My NAS Making Documentation - Nyaruhodo</title>
+  <title>I am arch btw! (笑) - Nyaruhodo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -204,13 +204,13 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/img/nas.jpg') no-repeat center center; background-size: cover;">
+     style="background: url('/img/penguin.jpg') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="My NAS Making Documentation"></span>
+            <span id="subtitle" data-typed-text="I am arch btw! (笑)"></span>
           
         </div>
 
@@ -221,8 +221,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-12-24 18:38" pubdate>
-          December 24, 2023 pm
+        <time datetime="2024-06-25 13:54" pubdate>
+          June 25, 2024 pm
         </time>
       </span>
     
@@ -233,7 +233,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          85 words
+          10 words
         
       </span>
     
@@ -281,46 +281,16 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">My NAS Making Documentation</h1>
+            <h1 id="seo-header">I am arch btw! (笑)</h1>
             
             
               <div class="markdown-body">
                 
-                <p>Making NAS or Network Attached Storage is not easy, especially if your PC is ancient, here is my journey documented on the quest of making NAS with my old pc</p>
-<hr>
-<p>What is NAS?<br>Network Attached Storage (NAS) is a type of dedicated file storage device that provides local-area network (LAN) nodes with file-based shared storage through a standard Ethernet connection. NAS devices are often used to store and share data among multiple users, and they typically provide access to files using protocols such as NFS (Network File System) or SMB&#x2F;CIFS (Server Message Block&#x2F;Common Internet File System).</p>
-<p>There are several software options available for setting up and managing Network Attached Storage (NAS) devices. These software solutions often provide features such as file sharing, data protection, remote access, and more.<br>RAID (Redundant Array of Independent Disks) is a storage technology that combines multiple physical hard drives into a single logical unit. The goal of RAID is to improve data reliability, performance, or both, depending on the specific RAID level used. RAID accomplishes this by distributing or mirroring data across the drives in the array. There are several RAID levels, each with its own characteristics:</p>
-<pre><code class="hljs">RAID 0 (Striping):
-    Data is divided into blocks, and each block is written to a different drive in the array.
-    Offers increased performance by allowing multiple drives to work in parallel.
-    No redundancy; if one drive fails, all data in the array is lost.
-
-RAID 1 (Mirroring):
-    Data is duplicated across two or more drives.
-    Provides fault tolerance by maintaining an identical copy of the data on each drive.
-    Good for data redundancy and reliability but doesn&#39;t offer increased performance.
-
-RAID 5 (Striping with Parity):
-    Data is striped across multiple drives, and parity information is distributed.
-    Offers a balance between performance and data redundancy.
-    Can withstand the failure of a single drive without data loss.
-
-RAID 6 (Striping with Double Parity):
-    Similar to RAID 5, but with an additional parity block for increased fault tolerance.
-    Can withstand the failure of two drives without data loss.
-    Provides higher fault tolerance than RAID 5 but may have a higher write overhead.
-
-RAID 10 (Combination of RAID 1 and RAID 0):
-    Combines mirroring (RAID 1) and striping (RAID 0).
-    Provides both performance improvement and data redundancy.
-    Can withstand the failure of one or more drives, depending on the specific configuration.
-
-RAID 50 and RAID 60:
-    Combines RAID 5 or RAID 6 with RAID 0 for striping.
-    Offers a balance between performance and fault tolerance by striping data across multiple RAID 5 or RAID 6 arrays.
-</code></pre>
-<p>The choice of RAID level depends on factors such as the desired level of data protection, performance requirements, and the number of available drives. RAID is commonly used in servers, storage arrays, and network-attached storage (NAS) devices to enhance data reliability and performance.</p>
-<p>More to follow</p>
+                <p>I have recently shifted to arch linux as my main os of choice.</p>
+<p>The main reason being the windows 11 being unoptimied for my day to day work flow.<br>I have been using ubuntu as my work os for quite sometime as dual boot on my laptop, but now I have decided to discard windows once and for all.</p>
+<p>I hope to navigate the installation process sometime later, via edit to this post. But for now I just wanted to use it as it is.<br>I have install KDE Plasma X11 as my DE.</p>
+<p>PS: Using Pacman for almost all repo and AUR for other is so convinent.</p>
+<p><img src="/2024/06/25/arch/fastfetch.png" srcset="/img/loading.gif" lazyload></p>
 
                 
               </div>
@@ -328,34 +298,6 @@ RAID 50 and RAID 60:
             <hr/>
             <div>
               <div class="post-metas my-3">
-  
-    <div class="post-meta mr-3 d-flex align-items-center">
-      <i class="iconfont icon-category"></i>
-      
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/Electronics/" class="category-chain-item">Electronics</a>
-  
-  
-    <span>></span>
-    
-  <a href="/categories/Electronics/Computer/" class="category-chain-item">Computer</a>
-  
-  
-
-  
-
-      </span>
-    
-  
-</span>
-
-    </div>
   
   
 </div>
@@ -368,18 +310,12 @@ RAID 50 and RAID 60:
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/02/04/SAX/" title="All about SAX you need to know">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">All about SAX you need to know</span>
-                        <span class="visible-mobile">Previous</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/12/04/work/" title="work">
-                        <span class="hidden-mobile">work</span>
+                      <a href="/2024/02/04/SAX/" title="All about SAX you need to know">
+                        <span class="hidden-mobile">All about SAX you need to know</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
