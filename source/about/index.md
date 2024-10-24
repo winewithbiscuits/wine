@@ -11,7 +11,7 @@ This is my personal website
 
 Currently focusing on learning some of the tools and techniques used in solving biological structures at near-atomic resolutions, and protein characterisation.
 
-In my free time, I watch youtube and also like to read manga/light novels.
+In my free time, I watch youtube and also like to play games.
 Playing truck sim 2 before bed has become like a ritual for me.
 
 /ᐠ_ ꞈ _ᐟ\ɴʏᴀ~
