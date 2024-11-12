@@ -6,7 +6,7 @@ banner_img: /img/ab.jpg
 date: 2023-11-20 08:19:18
 ---
 Hello
-I am winewithbiscuits, Master Student in Biological Science
+I am winewithbiscuits, Research Associate in Structural Biological Science
 This is my personal website
 
 Currently focusing on learning some of the tools and techniques used in solving biological structures at near-atomic resolutions, and protein characterisation.
